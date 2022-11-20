@@ -2,8 +2,8 @@ const inputData = window.prompt("Choose operation");
 
 const firstNumber = +window.prompt("Enter first number", 0);
 const secondNumber = +window.prompt("Enter second number", 0);
-const add = firstNumber + secondNumber;
-console.log(add);
+
+
 
 
 
