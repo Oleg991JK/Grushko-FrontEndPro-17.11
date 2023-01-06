@@ -1,7 +1,6 @@
 window.addEventListener("DOMContentLoaded", () => {
      const showForm = document.querySelector(".btn-black")
      const form = document.querySelector(".form");
-     const inputs = document.querySelector(".input");
   
      showForm.addEventListener("click", () => {
           form.style.display = "block";
