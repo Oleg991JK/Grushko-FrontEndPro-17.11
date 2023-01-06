@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="slider.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+      <div class="info-card">
+          <img src="guitar.jfif" alt="guitar">
+          <div class="info-card_descr">
+            <p>ESP LTD M400</p>
+            <p>Ціна: 40000грн</p>
+          </div>
+          <button class="btn-black">Купити</button>
+      </div>
+      <form class="form" >
+            <div class="menu-dialog">
+                  <input name="name" class="input" placeholder="Введіть своє ім'я" type="text">
+                  <input name="surname" class="input" placeholder="Введіть своє прізвище" type="text">
+                  <label class="city">Виберіть місто</label>
+                  <select name="city" id="chooseCity">
+                     <option value="Вінниця">Вінниця</option>
+                     <option value="Київ">Київ</option>
+                     <option value="Харків">Харків</option>
+                     <option value="Ялта">Ялта</option>
+                  </select>
+                  <label>Виберіть тип оплати</label>
+                  <input value="готівка" id="cash" name="payment" type="radio"> Післяоплати
+                  <input value="Банківська картка" id="card"  name="payment" type="radio"> Картка
+                  <input placeholder="Введіть номер картки" name="numbCard" class="input" type="text">
+                  <input name="nova poshta" class="input" placeholder="Введіть своє відділення Нової Пошти" type="number">
+                  <input name="product" class="input" placeholder="Введіть кількість продукції" type="number">
+                  <input  name="comment" class="input" placeholder="Залиште свій коментар" type="text">
+                  <button type="submit" class="btn">Підтвердити</button>
+            </div>
+      </form>
+</body>
+</html>
