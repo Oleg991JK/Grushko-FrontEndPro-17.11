@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+ <form class="sign">
+    <input class="inputs" placeholder="ім'я"  name="ім'я" type="text">
+    <input class="inputs" placeholder="прізвище" name="прізвище" type="text">
+    <input class="inputs" name="birthDay" type="date">
+    <label class="label" for="radio">Ваша стать:</label>
+     <input value="чоловік" class="radio"  type="radio" name="stat" id="male">Чоловік
+     <input value="жінка" class="radio"  type="radio" name="stat" id="female">Жінка
+     <label class="labelCity" for="city">Ваше місто</label>
+     <select name="місто" id="city">
+        <option value="Kиїв">Київ</option>
+        <option value="Вінниця">Вінниця</option>
+        <option value="Дніпро">Дніпро</option>
+        <option value="Ужгород">Ужгород</option>
+     </select>
+     <textarea placeholder=" Ваша адреса" name="address"  cols="20" rows="5"></textarea>
+     <label for="checkbox">Мови, якими володієте:</label>
+
+     <div class="lang">
+        <input value="англійська" name="мова1" type="checkbox"> Англійська
+        <input  value="українська"  name="мова2" type="checkbox"> Українська
+        <input  value="іспанська" name="мова3" type="checkbox"> Іспанська
+        <input  value="німецька" name="мова4" type="checkbox"> Німецька
+     </div>
+     <button class="btn">Зберегти</button>
+
+ </form>
+
+
+    <table class="table">
+      <thead>
+         <tr class="table-head"></tr>
+      </thead>
+      <tbody>
+         <tr class="table-body"></tr>
+      </tbody>
+    </table>
+ 
+
+</body>
+</html>
